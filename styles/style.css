@@ -1,6 +1,94 @@
-h1{
-    background-color: black;
-    color: orangered;
-    padding: 20px 40px;
-    text-align: center;
+/* global css */
+
+/* goole font link start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,100&display=swap');
+/* goole font link end */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    /* overflow: hidden; */
+}
+
+/* Banner part */
+.banner{
+    background-image: url("../images//banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    clear: both;
+}
+.banner_wrapper{
+width: 300px;
+height: 250px;
+padding:216px 230px 150px 800px;
+text-align: right;
+}
+.banner_wrapper h2{
+color: #151414;
+text-align: right;
+font-size: 35px;
+font-weight: 700;
+line-height: normal;
+}
+.banner_wrapper P{
+color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.banner_wrapper button{
+color: #FFF;;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+border-radius: 2px;
+background: #F15B22;
+padding: 10px;
+border: none;
+margin-top: 20px;
+}
+
+/* main part */
+/* faiker person part  */
+.person-bg{
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+}
+
+section.failer-year {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.person-img img {
+    width: 400px;
+    
+}
+.failer-part h3{
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.failer-part{
+    width: 350px;
+    margin-right: 120px;
+    margin-left: 80px;
+}
+.failer-part ul li {
+    list-style: none;
+    /* padding: 5px 0px; */
+    color: #444343;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+.failer-part ul{
+    margin-top: 20px;
 }
